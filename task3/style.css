@@ -1,0 +1,31 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.buttons button {
+    width: 25%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.clear, .equal {
+    background-color: #f0f0f0;
+}
